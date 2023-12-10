@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7D261020-F443-4063-8D6C-2F53C49C18B5}</ProjectGuid>
+    <ProjectGuid>{34D24A6A-F726-4E32-88B7-EF78B08492D5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Tyuiu.ShepiotkinIA.Sprint6.Task6.V19</RootNamespace>
-    <AssemblyName>Tyuiu.ShepiotkinIA.Sprint6.Task6.V19</AssemblyName>
+    <RootNamespace>Tyuiu.ShepiotkinIA.Sprint6.Task7.V26</RootNamespace>
+    <AssemblyName>Tyuiu.ShepiotkinIA.Sprint6.Task7.V26</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -74,7 +74,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -90,15 +89,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-info-50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hb6GxJhYO0w.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.ShepiotkinIA.Sprint6.Task6.V19.Lib\Tyuiu.ShepiotkinIA.Sprint6.Task6.V19.Lib.csproj">
-      <Project>{dc0416fd-5865-459f-88e5-beeeec5d0cbf}</Project>
-      <Name>Tyuiu.ShepiotkinIA.Sprint6.Task6.V19.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.ShepiotkinIA.Sprint6.Task7.V26.Lib\Tyuiu.ShepiotkinIA.Sprint6.Task7.V26.Lib.csproj">
+      <Project>{ce2cab17-2e45-4543-be5b-c553c6edbf90}</Project>
+      <Name>Tyuiu.ShepiotkinIA.Sprint6.Task7.V26.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
